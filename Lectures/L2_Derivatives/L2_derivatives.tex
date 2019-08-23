@@ -24,13 +24,13 @@
 \end{figure}
 
 $f'(a)$ is the derivative of a function $f$ at $a$ if
-$$f'(a) = \lim\limits_{x\to a} \frac{f(a+h)-f(a)}{h}$$
+$$f'(a) = \lim\limits_{h\to 0} \frac{f(a+h)-f(a)}{h}$$
 
 \vspace{6pt}
 
 \textbf{Example:}
 \begin{itemize}
-	\item[(a)] Given $f(x)\frac{x}{2x-1}$ find $f'(a)$.
+	\item[(a)] Given $f(x)=\frac{x}{2x-1}$ find $f'(a)$.
 \end{itemize}
 \end{frame}
 
@@ -70,6 +70,9 @@ Let $F$ be a function of $x$ and $A$ a set of numbers contained on the domain of
 \begin{theorem}
 	Let $F$ be any function defined on $(a,b)$. If $x$ is a max or min point for $F$ on $(a,b)$ and $F$ is differentiable, then $F'(x)=0$
 \end{theorem}
+
+ The second derivative tells us which type of point we are dealing with.
+
 \end{frame}
 
 \begin{frame}
@@ -78,7 +81,7 @@ A critical or stationary point of a function $F$ is a number $x$ such that $F'(x
 
 \vspace{6pt}
 \textbf{Finding a Max or Min}\\
-Consider a function on a closed interval $[a,b]$. In order to locate the max and/or min three kinds of points must be considered.
+Consider a function on a closed interval $[a,b]$. In order to locate the max and/or min three kinds of points must be considered. 
 \begin{itemize}
 	\item[1.]The critical points of $F$ in $[a,b]$.
 	\item[2.]The end points of $[a,b]$.
@@ -89,9 +92,9 @@ Consider a function on a closed interval $[a,b]$. In order to locate the max and
 \textbf{Examples:}\\
 Find the max and min of each of the following
 \begin{itemize}
-	\item[(a)]
-	\item[(b)]
-	\item[(c)]
+	\item[(a)] $f(x) = 2x^3+3x^2-12x+4$ on $[-4,2]$
+	\item[(b)]$f(x) = 2x^3+3x^2-12x+4$ on $[0,2]$
+	\item[(c)] $f(x)=\frac{(x-1)^2}{x}$ on $[1/2,2]$
 \end{itemize}
 \end{frame}
 
@@ -104,7 +107,7 @@ Find the max and min of each of the following
 \end{figure}
 
 \begin{theorem}[Rolle's Theorem]
-	If $F$ is continuous on $[a,b]$ and differentiate on $(a,b)$ and $F(a)=F(b)$ then there is a number $x$ in $(a,b)$ such that $F'(x)=0$.
+	If $F$ is continuous on $[a,b]$ and differentiate on $(a,b)$ and $F(a)=F(b)$ then there is a number $c$ in $(a,b)$ such that $F'(c)=0$.
 \end{theorem}
 \end{frame}
 
@@ -116,8 +119,8 @@ Find the max and min of each of the following
 	\hspace*{10pt}\hbox{\thinspace{\tiny\itshape expii}}
 \end{figure}
 \begin{theorem}[Mean Value Theorem]
-	If $F$ is continuous on $[a,b]$ and differentiable on $(a,b)$ then there is a number in $(a,b)$ such that
-	$$F'(x) = \frac{F(b)-F(a)}{b-a}$$
+	If $F$ is continuous on $[a,b]$ and differentiable on $(a,b)$ then there is a number $c$ in $(a,b)$ such that
+	$$F'(c) = \frac{F(b)-F(a)}{b-a}$$
 \end{theorem}
 \end{frame}
 
@@ -125,8 +128,8 @@ Find the max and min of each of the following
 \frametitle{\textbf{Cauchy Mean Value Theorem}}
 
 \begin{theorem}[Cauchy Mean Value Theorem]
-	If $F$ and $g$ are continuous on $[a,b]$ and differentiable on $(a,b)$ then there is a number $x$ in $(a,b)$ such that
-	$$\frac{F'(x)}{g'(x)} = \frac{F(b)-F(a)}{g(b)-g(a)} \implies [F(b)-F(a)]g'(x) = [g(b)-g(a)]F'(x)$$
+	If $F$ and $g$ are continuous on $[a,b]$ and differentiable on $(a,b)$ then there is a number $c$ in $(a,b)$ such that
+	$$\frac{F'(c)}{g'(c)} = \frac{F(b)-F(a)}{g(b)-g(a)} \implies [F(b)-F(a)]g'(c) = [g(b)-g(a)]F'(c)$$
 \end{theorem}
 \end{frame}
 
