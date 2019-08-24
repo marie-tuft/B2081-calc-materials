@@ -1,17 +1,21 @@
 \documentclass{beamer}
 \usepackage{times, amsthm, amsmath, amssymb, cancel, changepage, graphicx, lipsum, fancyhdr, mathabx, enumitem,caption, subcaption}
 \usetheme{CambridgeUS}
-\usecolortheme{seahorse}
+\usecolortheme{seagull}
 \usefonttheme{serif}
+\definecolor{navy}{RGB}{0, 0, 128} 
+\setbeamercolor{frametitle}{fg=navy}
+\setbeamercolor{title}{fg=navy}
 
-\title{Lecture 11: Multiple Integration Part 1}
+\title{Lecture 11: Multiple Integration Part I}
+\date{September 26, 2019}
 
 \begin{document}
 	
 \frame{\titlepage}
 
 \begin{frame}
-\frametitle{Single to Double Integration}
+\frametitle{\textbf{Single to Double Integration}}
 \begin{figure}
 	\centering
 	\begin{subfigure}{0.48\textwidth}
@@ -33,7 +37,7 @@
 \end{frame}
 
 \begin{frame}
-\frametitle{Riemann Double Integral}
+\frametitle{\textbf{Riemann Double Integral}}
 \begin{figure}
 	\centering
 	\includegraphics[width=.95\textwidth]{img_approx.jpg}
@@ -43,7 +47,7 @@ $$\iint\limits_{\mathbb{R}} f(x,y) dA = \lim\limits_{||\mathit{P}||\rightarrow 0
 \end{frame}
 
 \begin{frame}
-\frametitle{Properties}
+\frametitle{\textbf{Properties}}
 \begin{itemize}
 	\item[(a)] $\iint\limits_{\mathbb{R}} c f(x,y) dx\,dy = c \iint\limits_{\mathbb{R}} f(x,y)dx\,dy$ if $c$ is a real number
 	\item[(b)] $\iint\limits_{\mathbb{R}} [f(x,y) + g(x,y)] dx \,dy = \iint\limits_{\mathbb{R}} f(x,y)dx\,dy + \iint\limits_{\mathbb{R}} g(x,y)dx\,dy$
@@ -54,7 +58,7 @@ $$\iint\limits_{\mathbb{R}} f(x,y) dA = \lim\limits_{||\mathit{P}||\rightarrow 0
 \end{frame}
 
 \begin{frame}
-\frametitle{Evaluation of the Double Integral: Iterated Integral}
+\frametitle{\textbf{Evaluation of the Double Integral: Iterated Integral}}
 It is generally impossible to evaluate the double integral using the definition. Instead it is typical to express the double integral as an iterated integral and evaluate as two single integrals.
 $$\int_a^b \int_c^d f(x,y)dx\,dy = \int_a^b \Bigg[\int_c^d f(x,y)dx\Bigg]dy$$
 \vspace{12pt}
@@ -66,7 +70,7 @@ $$\int_a^b \int_c^d f(x,y)dx\,dy = \int_a^b \Bigg[\int_c^d f(x,y)dx\Bigg]dy$$
 \end{frame}
 
 \begin{frame}
-\frametitle{Evaluation of the Double Integral: Fubini's Theorem}
+\frametitle{\textbf{Evaluation of the Double Integral: Fubini's Theorem}}
 If $f$ is a continuous function on rectangle $\mathbb{R} = \{(x,y)|a\leq b, c\leq d \}$ then
 $$\iint\limits_{\mathbb{R}} f(x,y)dA = \int_a^b \int_c^d f(x,y)dx\,dy = \int_c^d \int_a^b  f(x,y)dx\,dy $$
 Sometimes one way is easier to evaluate than the other.\\
@@ -80,7 +84,7 @@ Sometimes one way is easier to evaluate than the other.\\
 \end{frame}
 
 \begin{frame}
-\frametitle{Evaluation of the Double Integral: Factorizable $f$}
+\frametitle{\textbf{Evaluation of the Double Integral: Factorizable $f$}}
 If $f(x,y) = g(x)h(y)$ on $\mathbb{R} = [a,b] \times [c,d]$ then
 $$\int_c^d \int_a^b f(x,y) dx\,dy = \int_a^bg(x)dx \int_c^d h(y)dy$$
 Note: This only works if the limits are constant. (Don't depend on $x$ or $y$.)
@@ -93,7 +97,7 @@ Note: This only works if the limits are constant. (Don't depend on $x$ or $y$.)
 \end{frame}
 
 \begin{frame}
-\frametitle{Triple Integral}
+\frametitle{\textbf{Triple Integral}}
 \begin{figure}
 	\centering
 	\includegraphics[height=.45\textheight]{IMG_0384.jpg}\\

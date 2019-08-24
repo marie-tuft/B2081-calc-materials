@@ -1,11 +1,14 @@
 \documentclass{beamer}
 \usepackage{times, amsthm, amsmath, amssymb, cancel, changepage, graphicx, lipsum, fancyhdr, mathabx, enumitem,caption, subcaption}
 \usetheme{CambridgeUS}
-\usecolortheme{seahorse}
+\usecolortheme{seagull}
 \usefonttheme{serif}
+\definecolor{navy}{RGB}{0, 0, 128} 
+\setbeamercolor{frametitle}{fg=navy}
+\setbeamercolor{title}{fg=navy}
 
-\title{Lecture 12: Multiple Integration Part 2}
-\date{October 4, 2018}
+\title{\textbf{Lecture 11: Multiple Integration II}}
+\date{October 1, 2019}
 
 \begin{document}
 	
@@ -13,7 +16,7 @@
 
 
 \begin{frame}
-\frametitle{Double Integration with General Region}
+\frametitle{\textbf{Double Integration with General Region}}
 \begin{figure}
 	\centering
 	\includegraphics[height=.35\textheight]{DR.png}\\
@@ -39,7 +42,7 @@ $$\iint\limits_{D} f(x,y)dA = \iint\limits_{D} F(x,y)dA$$
 
 
 \begin{frame}
-\frametitle{Type I Region}
+\frametitle{\textbf{Type I Region}}
 A Type I region is defined as:
 $$D = \{(x,y)| \,a \leq x \leq b, g_1(x) \leq y \leq g_2(x)\}$$
 where $g_1$ and $g_2$ are continuous on $[a,b]$. Then
@@ -52,7 +55,7 @@ $$\iint\limits_{D} f(x,y)dA = \int_a^b \int_{g_1(x)}^{g_2(x)} f(x,y)dy\,dx$$
 \end{frame}
 
 \begin{frame}
-\frametitle{Type II Region}
+\frametitle{\textbf{Type II Region}}
 A Type II region is defined as:
 $$D = \{(x,y)| \,h_1(y) \leq x \leq h_2(y), c \leq y \leq d\}$$
 where $h_1$ and $h_2$ are continuous on $[c,d]$. Then
@@ -67,7 +70,7 @@ $$\iint\limits_{D} f(x,y)dA = \int_c^d \int_{h_1(y)}^{h_2(y)} f(x,y)dx\,dy$$
 \end{frame}
 
 \begin{frame}
-\frametitle{The Approach I Use (An Aside)}
+\frametitle{\textbf{The Approach I Use (An Aside)}}
 In practice, you'll rarely have $D$  presented to you in a nice way that makes it obvious what type of region you're looking at. More often it looks like:\\
 \vspace{12pt}
 \begin{center}
@@ -84,7 +87,7 @@ So you need to be able to tell from a graph how to set up your bounds. I typical
 
 
 \begin{frame}
-\frametitle{Several Examples}
+\frametitle{\textbf{Several Examples}}
 
 \begin{itemize}
 	\item[(a)] Find the volume of the solid that lies under $f(x,y) = x^2+y^2$ and above region $D$ that is bounded by $x=y/2$ and $x=\sqrt{y}$

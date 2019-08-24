@@ -1,7 +1,7 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6600 64-bit) (preloaded format=pdflatex 2018.1.31)  11 OCT 2018 11:56
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6600 64-bit) (preloaded format=pdflatex 2018.1.31)  24 AUG 2019 16:31
 entering extended mode
-**./v_transform_p2.tex
-(v_transform_p2.tex
+**./L12_variable-transformation_pt1.tex
+(L12_variable-transformation_pt1.tex
 LaTeX2e <2017-04-15>
 Babel <3.17> and hyphenation patterns for 75 language(s) loaded.
 ("C:\Program Files\MiKTeX 2.9\tex\latex\beamer\beamer.cls"
@@ -973,29 +973,21 @@ LaTeX Font Info:    Redeclaring math symbol \braceru on input line 909.
 LaTeX Font Info:    Redeclaring math accent \widehat on input line 944.
 LaTeX Font Info:    Redeclaring math accent \widetilde on input line 946.
 ))
-("C:\Program Files\MiKTeX 2.9\tex\latex\enumitem\enumitem.sty"
-Package: enumitem 2011/09/28 v3.5.2 Customized lists
-\labelindent=\skip66
-\enit@outerparindent=\dimen191
-\enit@toks=\toks43
-\enit@inbox=\box53
-\enitdp@description=\count161
-)
 ("C:\Program Files\MiKTeX 2.9\tex\latex\caption\caption.sty"
 Package: caption 2016/02/21 v3.3-144 Customizing captions (AR)
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\caption\caption3.sty"
 Package: caption3 2016/05/22 v1.7-166 caption3 kernel (AR)
 Package caption3 Info: TeX engine: e-TeX on input line 67.
-\captionmargin=\dimen192
-\captionmargin@=\dimen193
-\captionwidth=\dimen194
-\caption@tempdima=\dimen195
-\caption@indent=\dimen196
-\caption@parindent=\dimen197
-\caption@hangindent=\dimen198
+\captionmargin=\dimen191
+\captionmargin@=\dimen192
+\captionwidth=\dimen193
+\caption@tempdima=\dimen194
+\caption@indent=\dimen195
+\caption@parindent=\dimen196
+\caption@hangindent=\dimen197
 )
-\c@ContinuedFloat=\count162
+\c@ContinuedFloat=\count161
 Package caption Info: beamer document class.
 Package caption Info: hyperref package is loaded.
 Package caption Info: Hyperref support is turned off
@@ -1003,34 +995,35 @@ Package caption Info: Hyperref support is turned off
 )
 ("C:\Program Files\MiKTeX 2.9\tex\latex\caption\subcaption.sty"
 Package: subcaption 2016/05/22 v1.1-161 Sub-captions (AR)
-\c@subfigure=\count163
-\c@subtable=\count164
+\c@subfigure=\count162
+\c@subtable=\count163
 )
 ("C:\Program Files\MiKTeX 2.9\tex\latex\beamer\beamerthemeCambridgeUS.sty"
 ("C:\Program Files\MiKTeX 2.9\tex\latex\beamer\beamerinnerthemerounded.sty")
 ("C:\Program Files\MiKTeX 2.9\tex\latex\beamer\beamerouterthemeinfolines.sty")
 ("C:\Program Files\MiKTeX 2.9\tex\latex\beamer\beamercolorthemebeaver.sty"))
-("C:\Program Files\MiKTeX 2.9\tex\latex\beamer\beamercolorthemeseahorse.sty")
+("C:\Program Files\MiKTeX 2.9\tex\latex\beamer\beamercolorthemeseagull.sty")
 ("C:\Program Files\MiKTeX 2.9\tex\latex\beamer\beamerfontthemeserif.sty")
-(v_transform_p2.aux)
-\openout1 = `v_transform_p2.aux'.
+(L12_variable-transformation_pt1.aux)
+\openout1 = `L12_variable-transformation_pt1.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 10.
-LaTeX Font Info:    ... okay on input line 10.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 10.
-LaTeX Font Info:    ... okay on input line 10.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 10.
-LaTeX Font Info:    ... okay on input line 10.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 10.
-LaTeX Font Info:    ... okay on input line 10.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 10.
-LaTeX Font Info:    ... okay on input line 10.
-LaTeX Font Info:    Checking defaults for U/mathx/m/n on input line 10.
-LaTeX Font Info:    ... okay on input line 10.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 10.
-LaTeX Font Info:    ... okay on input line 10.
-LaTeX Font Info:    Try loading font information for OT1+ptm on input line 10.
- ("C:\Program Files\MiKTeX 2.9\tex\latex\psnfss\ot1ptm.fd"
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for U/mathx/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Try loading font information for OT1+ptm on input line 15.
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\psnfss\ot1ptm.fd"
 File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
 )
 *geometry* driver: auto-detecting
@@ -1069,17 +1062,17 @@ File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
 
 ("C:\Program Files\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count165
-\scratchdimen=\dimen199
-\scratchbox=\box54
-\nofMPsegments=\count166
-\nofMParguments=\count167
-\everyMPshowfont=\toks44
-\MPscratchCnt=\count168
-\MPscratchDim=\dimen256
-\MPnumerator=\count169
-\makeMPintoPDFobject=\count170
-\everyMPtoPDFconversion=\toks45
+\scratchcounter=\count164
+\scratchdimen=\dimen198
+\scratchbox=\box53
+\nofMPsegments=\count165
+\nofMParguments=\count166
+\everyMPshowfont=\toks43
+\MPscratchCnt=\count167
+\MPscratchDim=\dimen199
+\MPnumerator=\count168
+\makeMPintoPDFobject=\count169
+\everyMPtoPDFconversion=\toks44
 ) ("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\epstopdf-base.sty"
 Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
 
@@ -1094,8 +1087,8 @@ G,.JBIG2,.JB2,.eps]
 (grfext)             \AppendGraphicsExtensions on input line 456.
 )
 ABD: EveryShipout initializing macros
-\AtBeginShipoutBox=\box55
-Package hyperref Info: Link coloring OFF on input line 10.
+\AtBeginShipoutBox=\box54
+Package hyperref Info: Link coloring OFF on input line 15.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\nameref.sty"
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
@@ -1103,54 +1096,54 @@ Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
 ("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\gettitlestring.sty"
 Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
-\c@section@level=\count171
+\c@section@level=\count170
 )
-LaTeX Info: Redefining \ref on input line 10.
-LaTeX Info: Redefining \pageref on input line 10.
-LaTeX Info: Redefining \nameref on input line 10.
+LaTeX Info: Redefining \ref on input line 15.
+LaTeX Info: Redefining \pageref on input line 15.
+LaTeX Info: Redefining \nameref on input line 15.
 
-(v_transform_p2.out) (v_transform_p2.out)
+(L12_variable-transformation_pt1.out) (L12_variable-transformation_pt1.out)
 \@outlinefile=\write5
-\openout5 = `v_transform_p2.out'.
+\openout5 = `L12_variable-transformation_pt1.out'.
 
 \symnumbers=\mathgroup9
 \sympureletters=\mathgroup10
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `normal'
-(Font)                  OT1/cmr/m/n --> OT1/ptm/m/n on input line 10.
-LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 10.
+(Font)                  OT1/cmr/m/n --> OT1/ptm/m/n on input line 15.
+LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 15.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
-(Font)                  OT1/cmr/bx/n --> OT1/ptm/bx/n on input line 10.
+(Font)                  OT1/cmr/bx/n --> OT1/ptm/bx/n on input line 15.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
-(Font)                  OT1/cmr/bx/n --> OT1/ptm/bx/n on input line 10.
-LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 10.
+(Font)                  OT1/cmr/bx/n --> OT1/ptm/bx/n on input line 15.
+LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 15.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
-(Font)                  OT1/cmss/m/n --> OT1/phv/m/n on input line 10.
+(Font)                  OT1/cmss/m/n --> OT1/phv/m/n on input line 15.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/cmss/bx/n --> OT1/phv/m/n on input line 10.
-LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 10.
+(Font)                  OT1/cmss/bx/n --> OT1/phv/m/n on input line 15.
+LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 15.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
-(Font)                  OT1/cmr/m/it --> OT1/ptm/m/it on input line 10.
+(Font)                  OT1/cmr/m/it --> OT1/ptm/m/it on input line 15.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  OT1/cmr/bx/it --> OT1/ptm/m/it on input line 10.
-LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 10.
+(Font)                  OT1/cmr/bx/it --> OT1/ptm/m/it on input line 15.
+LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 15.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
-(Font)                  OT1/cmtt/m/n --> OT1/pcr/m/n on input line 10.
+(Font)                  OT1/cmtt/m/n --> OT1/pcr/m/n on input line 15.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/cmtt/m/n --> OT1/pcr/m/n on input line 10.
+(Font)                  OT1/cmtt/m/n --> OT1/pcr/m/n on input line 15.
 LaTeX Font Info:    Overwriting symbol font `numbers' in version `bold'
-(Font)                  OT1/ptm/m/n --> OT1/ptm/bx/n on input line 10.
+(Font)                  OT1/ptm/m/n --> OT1/ptm/bx/n on input line 15.
 LaTeX Font Info:    Overwriting symbol font `pureletters' in version `bold'
-(Font)                  OT1/ptm/m/it --> OT1/ptm/bx/it on input line 10.
+(Font)                  OT1/ptm/m/it --> OT1/ptm/bx/it on input line 15.
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `bold'
-(Font)                  OT1/cmr/bx/n --> OT1/ptm/bx/n on input line 10.
+(Font)                  OT1/cmr/bx/n --> OT1/ptm/bx/n on input line 15.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
-(Font)                  OT1/ptm/bx/n --> OT1/ptm/bx/n on input line 10.
+(Font)                  OT1/ptm/bx/n --> OT1/ptm/bx/n on input line 15.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/phv/m/n --> OT1/phv/bx/n on input line 10.
+(Font)                  OT1/phv/m/n --> OT1/phv/bx/n on input line 15.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  OT1/ptm/m/it --> OT1/ptm/bx/it on input line 10.
+(Font)                  OT1/ptm/m/it --> OT1/ptm/bx/it on input line 15.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/pcr/m/n --> OT1/pcr/bx/n on input line 10.
+(Font)                  OT1/pcr/m/n --> OT1/pcr/bx/n on input line 15.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\translator\translator-basic-dictionary-
 English.dict"
@@ -1178,81 +1171,89 @@ Dictionary: translator-theorem-dictionary, Language: English
 )
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: End \AtBeginDocument code.
- (v_transform_p2.nav) [1
+ (L12_variable-transformation_pt1.nav)
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 15.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <14.4> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 17.
+ [1
 
 {C:/Users/Marie/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}]
-<vmap.jpg, id=49, 352.31625pt x 143.53625pt>
-File: vmap.jpg Graphic file (type jpg)
-<use vmap.jpg>
-Package pdftex.def Info: vmap.jpg  used on input line 26.
-(pdftex.def)             Requested size: 224.24849pt x 91.35913pt.
-LaTeX Font Info:    Try loading font information for U+msa on input line 26.
+LaTeX Font Info:    Try loading font information for U+msa on input line 36.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsa.fd"
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 26.
+LaTeX Font Info:    Try loading font information for U+msb on input line 36.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd"
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-) [2
-
- <./vmap.jpg>]
-[3
+)
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10.95> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 36.
+ [2
 
 ]
-<polar.png, id=108, 569.12625pt x 240.9pt>
-File: polar.png Graphic file (type png)
-<use polar.png>
-Package pdftex.def Info: polar.png  used on input line 53.
-(pdftex.def)             Requested size: 235.45352pt x 99.66515pt.
- [4
+<vmap.jpg, id=81, 352.31625pt x 143.53625pt>
+File: vmap.jpg Graphic file (type jpg)
+<use vmap.jpg>
+Package pdftex.def Info: vmap.jpg  used on input line 47.
+(pdftex.def)             Requested size: 224.24849pt x 91.35913pt.
+ [3
 
- <./polar.png (PNG copy)>]
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10.95> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 63.
+ <./vmap.jpg>] [4
+
+]
+File: vmap.jpg Graphic file (type jpg)
+<use vmap.jpg>
+Package pdftex.def Info: vmap.jpg  used on input line 75.
+(pdftex.def)             Requested size: 199.3341pt x 81.20982pt.
  [5
 
 ] [6
 
+] [7
+
+] [8
+
 ]
 \tf@nav=\write6
-\openout6 = `v_transform_p2.nav'.
+\openout6 = `L12_variable-transformation_pt1.nav'.
 
 \tf@toc=\write7
-\openout7 = `v_transform_p2.toc'.
+\openout7 = `L12_variable-transformation_pt1.toc'.
 
 \tf@snm=\write8
-\openout8 = `v_transform_p2.snm'.
+\openout8 = `L12_variable-transformation_pt1.snm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 80.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 80.
- (v_transform_p2.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 80.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 80.
-Package rerunfilecheck Info: File `v_transform_p2.out' has not changed.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 129.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 129.
+ (L12_variable-transformation_pt1.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 129.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 129.
+Package rerunfilecheck Info: File `L12_variable-transformation_pt1.out' has not
+ changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 19130 strings out of 493303
- 357670 string characters out of 3138856
- 528220 words of memory out of 3000000
- 22224 multiletter control sequences out of 15000+200000
- 25257 words of font info for 59 fonts, out of 3000000 for 9000
+ 18952 strings out of 493303
+ 355847 string characters out of 3138856
+ 523727 words of memory out of 3000000
+ 22040 multiletter control sequences out of 15000+200000
+ 36963 words of font info for 88 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 56i,15n,55p,914b,570s stack positions out of 5000i,500n,10000p,200000b,50000s
-{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/base/8r.enc} <C:\Users\Marie\App
-Data\Local\MiKTeX\2.9\fonts\pk\ljfour\public\mathabx\dpi657\mathx10.pk> <C:\Use
-rs\Marie\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\public\mathabx\dpi600\matha8.
-pk> <C:\Users\Marie\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\public\mathabx\dpi
-657\matha10.pk><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi
-10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C
-:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmb8a.pfb><C:/Program Files/M
-iKTeX 2.9/fonts/type1/urw/times/utmr8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/t
-ype1/urw/times/utmri8a.pfb>
-Output written on v_transform_p2.pdf (6 pages, 132839 bytes).
+ 56i,15n,55p,921b,568s stack positions out of 5000i,500n,10000p,200000b,50000s
+ <C:\Users\Marie\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\public\mathabx\dpi6
+00\matha8.pk> <C:\Users\Marie\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\public\m
+athabx\dpi657\matha10.pk>{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/base/8r.e
+nc} <C:\Users\Marie\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\public\mathabx\dpi
+657\mathx10.pk><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi
+10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmb8a.pfb><C:/Progra
+m Files/MiKTeX 2.9/fonts/type1/urw/times/utmr8a.pfb><C:/Program Files/MiKTeX 2.
+9/fonts/type1/urw/times/utmri8a.pfb>
+Output written on L12_variable-transformation_pt1.pdf (8 pages, 117482 bytes).
 PDF statistics:
- 239 PDF objects out of 1000 (max. 8388607)
- 13 named destinations out of 1000 (max. 500000)
- 71 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 296 PDF objects out of 1000 (max. 8388607)
+ 17 named destinations out of 1000 (max. 500000)
+ 72 words of extra memory for PDF output out of 10000 (max. 10000000)
 
