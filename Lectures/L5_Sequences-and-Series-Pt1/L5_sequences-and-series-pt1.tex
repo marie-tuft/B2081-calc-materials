@@ -1,0 +1,96 @@
+\documentclass{beamer}
+\usepackage{times, amsthm, amsmath, amssymb, cancel, changepage, graphicx, lipsum, fancyhdr, mathabx, enumitem,caption, subcaption}
+\usetheme{CambridgeUS}
+\usecolortheme{seagull}
+\usefonttheme{serif}
+\definecolor{navy}{RGB}{0, 0, 128} 
+\setbeamercolor{frametitle}{fg=navy}
+\setbeamercolor{title}{fg=navy}
+\setbeamerfont{frametitle}{series=\bfseries}
+\setbeamerfont{title}{series=\bfseries}
+
+\title{Lecture 5: Sequences \& Series I}
+\date{September 10, 2019}
+
+\begin{document}
+	
+\frame{\titlepage}
+
+\begin{frame}
+\frametitle{What is a Sequence?}
+A sequence is a set of numbers written in some order
+$$a_1, a_2, a_3,...,a_{n-1}, a_n$$
+An infinite sequence can be thought of as a function whose domain is the set of positive integers $i \in \mathbb{I}$ such that
+$$a_i = f(i)$$
+
+\vspace{6pt}
+\textbf{Examples:}\\
+Give the first four terms of the following sequences
+\begin{itemize}
+	\item[(a)] $a_n = \frac{n}{n+1}$
+	\item[(b)] $a_n = 2 + (.1)^n$
+	\item[(c)] $a_n = (-1)^{n+1} \frac{n^2}{3n-1}$
+	\item[(d)] $a_n = 4$
+\end{itemize}
+\end{frame}
+
+\begin{frame}
+\frametitle{Limits of Sequences}
+A sequence $\{a_n\}$ has the limit
+$$\lim\limits_{n \to \infty} \{a_n\} = L$$
+if for all $\epsilon > 0$ there exits a positive $N$ such that $|a_n-L| < \epsilon$ whenever $n>N$. If the limit exists then the sequence converges, otherwise the sequence diverges.
+
+\vspace{6pt}
+\textbf{Examples:}\\
+If possible, find the limit of the following sequences:
+\begin{itemize}
+	\item[(a)] $\{\frac{n}{2n+1}\}$
+	\item[(b)] $\{ \frac{(-1)^nn^2}{1+n^3}\}$
+	\item[(c)] $\{(1+\frac{c}{n})^n\}$
+\end{itemize}
+\end{frame}
+
+\begin{frame}
+\frametitle{What is a Series?}
+If we add all the terms of a sequence
+\end{frame}
+
+%\begin{frame}
+%\frametitle{What is a Limit?}
+%\begin{figure}
+%	\centering
+%	\begin{subfigure}{0.48\textwidth}
+%		
+%		\includegraphics[width=\textwidth]{IMG_0380.jpg}
+%		\hspace*{10pt}\hbox{\thinspace{\tiny\itshape vias.org}}
+%		\caption{Single integration}
+%	\end{subfigure}% 
+%	~ 
+%	\begin{subfigure}{0.48\textwidth}
+%		
+%		\includegraphics[width=\textwidth]{IMG_0385.jpg}
+%		\hspace*{10pt}\hbox{\thinspace{\tiny\itshape tex.stackexchange.com}}
+%		\caption{Double integration.}
+%		\label{fig:2}
+%	\end{subfigure}
+%\end{figure}
+%
+%\end{frame}
+%
+%
+%\begin{frame}
+%\frametitle{Triple Integral}
+%\begin{figure}
+%	\centering
+%	\includegraphics[height=.45\textheight]{IMG_0384.jpg}\\
+%	\hspace*{10pt}\hbox{\thinspace{\tiny\itshape maplesoft.com}}
+%\end{figure}
+%
+%$$\iiint\limits_{\mathbb{R}} F(x,y,z) dV = \int_{x=a}^{x=b} \int_{y=y_1(x)}^{y=y_2(x)} \int_{z=z_1(x,y)}^{z=z_2(x,y)} F(x,y,z) dz\,dy\,dx$$
+%\textbf{Example:}
+%\begin{itemize}
+%	\item[(a)] $\int_0^1 \int_0^{1-x} \int_0^{2-x} xyz \,dz\,dy\,dx$
+%\end{itemize}
+%\end{frame}
+
+\end{document}
