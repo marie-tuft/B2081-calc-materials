@@ -1,0 +1,51 @@
+\documentclass[12pt, amssymb, one column]{article}
+\usepackage{times, amsthm, amsmath, amssymb, cancel, changepage, graphicx, lipsum, fancyhdr, mathabx, enumitem}
+\usepackage[margin=1in]{geometry}
+
+\newcommand{\ihat}{\mathbf {\hat \imath}}
+\newcommand{\jhat}{\mathbf {\hat \jmath}}
+
+\pagestyle{fancy}
+\fancyhf{}
+\rhead{Due: September 12, 2019}
+\chead{\bf{Homework 2}}
+\lhead{BIOST 2081}
+\cfoot{-\thepage-}
+
+\setitemize[0]{leftmargin=.3in}
+\renewcommand{\baselinestretch}{.9}
+
+
+%end of header, beginning of document
+
+\begin{document}
+
+\begin{itemize}
+	\item[1.] Consider the function $f(x) = x^3 - 5x+8$ over the interval $[0,4]$.
+		\begin{itemize}
+			\item[(a)] Approximate the area between the x-axis and $f(x)$ with $n=4$ rectangles using the right, left, and midpoint of subintervals.
+			\item[(b)] Find the area between the x-axis and $f(x)$ using integration.
+			\item[(c)] Which approximation from (a) is closest to the true value (b)?
+		\end{itemize}
+	
+	\item[2.] Find $f(x)$ for each of the following:
+		\begin{itemize}
+			\item[(a)] $f'(x) = 12x^3 -15x^2 + 10$ and $f(-1) = 8$
+			\item[(b)] $f'(x) = 6e^x-4-10x$ and $f(0)=-6$
+			\item[(c)] $f''(x) = 60x^4-60x^2$ and $f(-1)=14$ and $f'(1)=6$
+		\end{itemize}
+	
+	\item[3.] If possible, integrate the following functions
+		\begin{itemize}
+			\item[(a)]$\int_{-1}^4 (x-2)e^{x^2-4x} \mathop{dx}$
+			\item[(b)]$\int_1^4 \frac{1}{2x-6} \mathop{dx}$
+			\item[(c)]$\int \frac{\sin(1+\ln(2x)) - \sqrt{1+\ln(2x)}}{x} \mathop{dx}$
+			\item[(d)]$\int_{-\infty}^0 x e^{2+3x} \mathop{dx}$
+			\item[(e)]$\int_0^\pi 2x^2 \cos(x) \mathop{dx}$
+			\item[(f)]$\int_{-\infty}^0 \cos(x) \mathop{dx}$
+			\item[(g)]$\int_0^6 |10-2x| \mathop{dx}$
+		\end{itemize}
+	
+\end{itemize}
+
+\end{document}
