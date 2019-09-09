@@ -1,7 +1,7 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6600 64-bit) (preloaded format=pdflatex 2018.1.31)  7 SEP 2019 21:47
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6600 64-bit) (preloaded format=pdflatex 2018.1.31)  7 SEP 2019 21:33
 entering extended mode
-**"./Homework 5.tex"
-("Homework 5.tex"
+**"./Homework 3.tex"
+("Homework 3.tex"
 LaTeX2e <2017-04-15>
 Babel <3.17> and hyphenation patterns for 75 language(s) loaded.
 ("C:\Program Files\MiKTeX 2.9\tex\latex\base\article.cls"
@@ -492,8 +492,8 @@ Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 LaTeX Warning: Unused global option(s):
     [amssymb].
 
-("Homework 5.aux")
-\openout1 = `"Homework 5.aux"'.
+("Homework 3.aux")
+\openout1 = `"Homework 3.aux"'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 21.
 LaTeX Font Info:    ... okay on input line 21.
@@ -606,22 +606,17 @@ G,.JBIG2,.JB2,.eps]
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-LaTeX Font Info:    Try loading font information for U+msa on input line 24.
+LaTeX Font Info:    Try loading font information for U+msa on input line 26.
 ("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsa.fd"
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 24.
+LaTeX Font Info:    Try loading font information for U+msb on input line 26.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd"
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-<regions.png, id=1, 716.6775pt x 215.30438pt>
-File: regions.png Graphic file (type png)
-<use regions.png>
-Package pdftex.def Info: regions.png  used on input line 41.
-(pdftex.def)             Requested size: 375.80544pt x 112.9018pt.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 68.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 48.
 
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -631,29 +626,32 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 
 [1{C:/Users/Marie/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}
 
- <./regions.png>] ("Homework 5.aux") ) 
+]
+("Homework 3.aux") ) 
 Here is how much of TeX's memory you used:
- 3966 strings out of 493303
- 53111 string characters out of 3138856
- 220235 words of memory out of 3000000
- 7435 multiletter control sequences out of 15000+200000
+ 3960 strings out of 493303
+ 52949 string characters out of 3138856
+ 216237 words of memory out of 3000000
+ 7431 multiletter control sequences out of 15000+200000
  14637 words of font info for 45 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 41i,10n,43p,281b,335s stack positions out of 5000i,500n,10000p,200000b,50000s
- <C:\Users\Marie\AppData\Local\MiKTeX\2.9
-\fonts\pk\ljfour\public\mathabx\dpi600\matha8.pk> <C:\Users\Marie\AppData\Local
-\MiKTeX\2.9\fonts\pk\ljfour\public\mathabx\dpi600\matha12.pk> <C:\Users\Marie\A
-ppData\Local\MiKTeX\2.9\fonts\pk\ljfour\public\mathabx\dpi720\mathx10.pk>{C:/Pr
-ogram Files/MiKTeX 2.9/fonts/enc/dvips/base/8r.enc}<C:/Program Files/MiKTeX 2.9
-/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Program Files/MiKTeX 2.9/fonts/t
-ype1/public/amsfonts/cm/cmmi8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/publ
-ic/amsfonts/cm/cmr12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfon
-ts/cm/cmr6.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr8
-.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmb8a.pfb><C:/Program 
-Files/MiKTeX 2.9/fonts/type1/urw/times/utmr8a.pfb>
-Output written on "Homework 5.pdf" (1 page, 118248 bytes).
+ 41i,10n,43p,281b,280s stack positions out of 5000i,500n,10000p,200000b,50000s
+ <C:\Users\Marie\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\p
+ublic\mathabx\dpi600\matha6.pk> <C:\Users\Marie\AppData\Local\MiKTeX\2.9\fonts\
+pk\ljfour\public\mathabx\dpi720\mathx10.pk> <C:\Users\Marie\AppData\Local\MiKTe
+X\2.9\fonts\pk\ljfour\public\mathabx\dpi600\matha8.pk> <C:\Users\Marie\AppData\
+Local\MiKTeX\2.9\fonts\pk\ljfour\public\mathabx\dpi600\matha12.pk>{C:/Program F
+iles/MiKTeX 2.9/fonts/enc/dvips/base/8r.enc}<C:/Program Files/MiKTeX 2.9/fonts/
+type1/public/amsfonts/cm/cmmi12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/pu
+blic/amsfonts/cm/cmmi6.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsf
+onts/cm/cmmi8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/c
+mr12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr6.pfb><
+C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Program
+ Files/MiKTeX 2.9/fonts/type1/urw/times/utmb8a.pfb><C:/Program Files/MiKTeX 2.9
+/fonts/type1/urw/times/utmr8a.pfb>
+Output written on "Homework 3.pdf" (1 page, 82249 bytes).
 PDF statistics:
- 66 PDF objects out of 1000 (max. 8388607)
+ 69 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 6 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1 words of extra memory for PDF output out of 10000 (max. 10000000)
 

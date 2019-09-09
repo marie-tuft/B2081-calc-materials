@@ -71,7 +71,7 @@ Let $F$ be a function of $x$ and $A$ a set of numbers contained on the domain of
 	Let $F$ be any function defined on $(a,b)$. If $x$ is a max or min point for $F$ on $(a,b)$ and $F$ is differentiable, then $F'(x)=0$
 \end{theorem}
 
- The second derivative tells us which type of point we are dealing with.
+ The second derivative tells us which type of point we are dealing with. If $f''(x)>0$ then $x$ is a minimum. If $f''(x)<0$ then $x$ is a maximum.
 
 \end{frame}
 
@@ -107,48 +107,39 @@ Find the max and min of each of the following
 \end{figure}
 
 \begin{theorem}[Rolle's Theorem]
-	If $F$ is continuous on $[a,b]$ and differentiate on $(a,b)$ and $F(a)=F(b)$ then there is a number $c$ in $(a,b)$ such that $F'(c)=0$.
+	If $F$ is continuous on $[a,b]$ and differentiable on $(a,b)$ and $F(a)=F(b)$ then there is a number $c$ in $(a,b)$ such that $F'(c)=0$.
 \end{theorem}
 \end{frame}
 
 \begin{frame}
-\frametitle{\textbf{Mean Value Theorem}}
-\begin{figure}
-	\centering
-	\includegraphics[height=.35\textheight]{meanvalue.jpg}\\
-	\hspace*{10pt}\hbox{\thinspace{\tiny\itshape expii}}
-\end{figure}
+\frametitle{\textbf{Mean Value Theorems}}
+
 \begin{theorem}[Mean Value Theorem]
 	If $F$ is continuous on $[a,b]$ and differentiable on $(a,b)$ then there is a number $c$ in $(a,b)$ such that
 	$$F'(c) = \frac{F(b)-F(a)}{b-a}$$
 \end{theorem}
-\end{frame}
-
-\begin{frame}
-\frametitle{\textbf{Cauchy Mean Value Theorem}}
 
 \begin{theorem}[Cauchy Mean Value Theorem]
 	If $F$ and $g$ are continuous on $[a,b]$ and differentiable on $(a,b)$ then there is a number $c$ in $(a,b)$ such that
 	$$\frac{F'(c)}{g'(c)} = \frac{F(b)-F(a)}{g(b)-g(a)} \implies [F(b)-F(a)]g'(c) = [g(b)-g(a)]F'(c)$$
 \end{theorem}
+
 \end{frame}
+
 
 
 \begin{frame}
 \frametitle{\textbf{L'Hopitals Rule}}
 \begin{theorem}[L'Hopitals Rule]
-	Suppose that $\lim\limits_{x \to a} F(x)=0$ and $\lim\limits_{x \to a} g(x)=0$ and
-	\begin{itemize}
-		\item[(i)] $F'$ and $g'$ exist for each $x$ of an interval about $x=a$ except possibly $a$ itself.
-		\item[(ii)] $g'\neq0$ for $x\neq a$ in this interval.
-		\item[(iii)] $\lim\limits_{x \to a} \frac{F'(x)}{g'(x)}=A$
-	\end{itemize}
-Then $\lim\limits_{x \to a} \frac{F(x)}{g(x)}=A$.
+	Suppose that $$\lim\limits_{x \to a} \frac{F(x)}{g(x)} = \frac{0}{0} \mbox{ or } \lim\limits_{x \to a}\frac{ F(x)}{g(x)}=\frac{ \pm \infty}{\pm \infty}$$ 
+where $a$ can be any real number, infinity, or negative infinity. Then
+$$\lim\limits_{x \to a} \frac{F(x)}{g(x)}=\lim\limits_{x \to a} \frac{F'(x)}{g'(x)}$$
 \end{theorem}
 \vspace{6pt}
-\textbf{Example:}
+\textbf{Examples:}
 \begin{itemize}
 	\item[(a)] $\lim\limits_{x\to 0} \frac{e^x-1}{\ln(1+x)}$
+	\item[(b)] $\lim\limits_{x\to \infty} \frac{e^x}{x^2}$
 \end{itemize}
 \end{frame}
 

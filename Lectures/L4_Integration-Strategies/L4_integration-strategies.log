@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6600 64-bit) (preloaded format=pdflatex 2018.1.31)  24 AUG 2019 19:57
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6600 64-bit) (preloaded format=pdflatex 2018.1.31)  5 SEP 2019 10:14
 entering extended mode
 **./L4_integration-strategies.tex
 (L4_integration-strategies.tex
@@ -1216,7 +1216,7 @@ Package pdftex.def Info: line-method.png  used on input line 58.
 ] [7
 
 ]
-Overfull \vbox (2.13666pt too high) detected at line 118
+Overfull \vbox (2.13666pt too high) detected at line 119
  []
 
 [8
@@ -1231,11 +1231,11 @@ Overfull \vbox (2.13666pt too high) detected at line 118
 \tf@snm=\write8
 \openout8 = `L4_integration-strategies.snm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 158.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 158.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 159.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 159.
  (L4_integration-strategies.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 158.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 158.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 159.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 159.
 Package rerunfilecheck Info: File `L4_integration-strategies.out' has not chang
 ed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
@@ -1261,9 +1261,9 @@ m Files/MiKTeX 2.9/fonts/type1/public/amsfonts/symbols/msbm10.pfb><C:/Program F
 iles/MiKTeX 2.9/fonts/type1/urw/times/utmb8a.pfb><C:/Program Files/MiKTeX 2.9/f
 onts/type1/urw/times/utmr8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/ti
 mes/utmri8a.pfb>
-Output written on L4_integration-strategies.pdf (8 pages, 154165 bytes).
+Output written on L4_integration-strategies.pdf (8 pages, 154476 bytes).
 PDF statistics:
- 311 PDF objects out of 1000 (max. 8388607)
+ 312 PDF objects out of 1000 (max. 8388607)
  17 named destinations out of 1000 (max. 500000)
  66 words of extra memory for PDF output out of 10000 (max. 10000000)
 
