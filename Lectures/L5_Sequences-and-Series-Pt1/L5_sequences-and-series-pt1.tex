@@ -79,7 +79,7 @@ $$\sum_{n=1}^\infty ar^{n-1} =\frac{a}{1-r}$$
 \begin{itemize}
 	\item[(a)] Find the sum of $\sum_{n=1}^\infty 2(\frac{3}{4})^{n-1}$
 	\item[(b)] Is this convergent and find its sum: $4+\frac{8}{5} + \frac{16}{25} + \frac{32}{125} + ...$.
-	\item[(c)] Find the sum of $\sum_{x=0}^\infty p(1-p)^x$
+	\item[(c)] Find the sum of $\sum_{x=0}^\infty p(1-p)^x$ for $p \in (0,1)$
 	\item[(d)] Does $\sum_{n=1}^\infty 2^{2n} 3^{1-n}$ converge?
 \end{itemize}
 \end{frame}
@@ -95,9 +95,10 @@ $$\sum_{n=1}^\infty ar^{n-1} =\frac{a}{1-r}$$
 Note: If $\lim\limits_{n\to \infty} a_n = 0$, this does not mean that $\sum_{n=1}^\infty a_n$ is convergent.
 
 \vspace{12pt}
-\textbf{Example:}
+\textbf{Examples:}
 \begin{itemize}
 	\item[(a)] Does $\sum_{n=1}^\infty \frac{1}{n}$ converge?
+	\item[(b)] Does $\sum_{n=1}^\infty \frac{n^2}{5n^2+4}$ converge?
 \end{itemize}
 \end{frame}
 
@@ -112,12 +113,23 @@ Let $\{a_n\}$ and $\{b_n\}$ be two sequences such that $\sum_{n=1}^\infty a_n$ c
 \vspace{12pt}
 \textbf{Examples:}
 \begin{itemize}
-	\item[(a)] Does $\sum_{n=1}^{\infty} (\frac{3}{n(n+1)} + \frac{1}{2^n})$ converge?
+	\item[(a)] Does $\sum_{n=1}^{\infty} (9^{-n+2}4^{n+1} + \frac{1}{2^n})$ converge?
 	\item[(b)] Coin flipping.
 \end{itemize}
 \end{frame}
 
+\begin{frame}
+\frametitle{Series With Positive Terms}
+\begin{itemize}
+	\item[(i)] If $a_i \geq 0$ for all $i$, then the partial sums $S_n$ must be non-decreasing
+	\item[(ii)] If the $S_n$'s are to approach a limit they cannot become arbitrarily large.
+\end{itemize}
+Suppose there exists some $B \geq S_n$ for all $n$, then $B$ is called an upper bound of the sequence $\{S_n\}$. The sequence is bounded. If $B' < B$ such that $S_n > B'$. $B$ is then called the least upper bound and 
+$$\sum_{n=1}^\infty a_n = B$$
+Can characterize the sum of a infinte series as
+$$\lim\limits_{n \to \infty} \sum_{i=1}^n a_i \mbox{ or } \sup_{n=1}^\infty \{S_n\}$$
 
+\end{frame}
 
 %\begin{frame}
 %\frametitle{What is a Limit?}
