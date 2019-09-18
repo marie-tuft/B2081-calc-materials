@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6600 64-bit) (preloaded format=pdflatex 2018.1.31)  14 SEP 2019 17:24
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6600 64-bit) (preloaded format=pdflatex 2018.1.31)  17 SEP 2019 21:38
 entering extended mode
 **"./Homework 4.tex"
 ("Homework 4.tex"
@@ -631,7 +631,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 Here is how much of TeX's memory you used:
  3960 strings out of 493303
  53013 string characters out of 3138856
- 216237 words of memory out of 3000000
+ 216234 words of memory out of 3000000
  7431 multiletter control sequences out of 15000+200000
  14637 words of font info for 45 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -646,7 +646,7 @@ rogram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Program Fil
 es/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Program Files/MiKTeX 
 2.9/fonts/type1/urw/times/utmb8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/u
 rw/times/utmr8a.pfb>
-Output written on "Homework 4.pdf" (1 page, 77271 bytes).
+Output written on "Homework 4.pdf" (1 page, 77219 bytes).
 PDF statistics:
  54 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
