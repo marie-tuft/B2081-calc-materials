@@ -32,7 +32,7 @@ One of the main application of derivatives is finding a maximum or minimum. We d
 
 
 \begin{frame}
-\frametitle{Maximums \& Minimums}
+\frametitle{Finding Local Extrema}
 A function of two variables has a local maximum at $(a,b)$ if $f(x,y) \leq f(a,b)$ for all $(x,y)$ in some disk with center $(a,b)$. $f(a,b)$ is then the local maximum. If $f(x,y) \geq f(a,b)$ on such a disk, $f(a,b)$ is the local minimum.\\
 \textit{Note: If the inequalities hold on the entire domain of $f(x,y)$ then we have a global max or min.}
 \begin{itemize}
@@ -42,6 +42,17 @@ A function of two variables has a local maximum at $(a,b)$ if $f(x,y) \leq f(a,b
 	\item[(iii)] A critical point is not necessarily an extrema of $f$. A critical point can be a max, min, or saddle point.
 \end{itemize}
  
+
+\end{frame}
+
+\begin{frame}
+\frametitle{Finding Local Extrema}
+\begin{figure}
+	\centering
+	\includegraphics[width=.9\textwidth]{minmaxsaddle.png}\\
+	\hspace*{10pt}\hbox{\thinspace{\tiny\itshape Off the convex path}}
+\end{figure}
+
 \vspace{6pt}
 \textbf{Examples:}
 \begin{itemize}
@@ -66,11 +77,12 @@ $$D(a,b) = f_{xx}(a,b)f_{yy}(a,b) - [f_{xy}(a,b)]^2$$
 \begin{itemize}
 	\item[(a)] $f(x,y) = x^2-y^2$
 	\item[(b)] $f(x,y) = x^2-xy + y^2$
+	\item[(c)] $f(x,y) = 4+x^3+y^3-3xy$
 \end{itemize}
 \end{frame}
 
 \begin{frame}
-\frametitle{Finding Extreme Values}
+\frametitle{Finding Absolute Extreme Values}
 \begin{theorem}[Extreme Value Theorem]
 	If $f(x,y)$ is continuous on a closed bounded set $D$ in $\mathbb{R}^2$, then $f$ attains an absolute min value $f(a_1,b_1)$ and also a max value $f(a_2,b_2)$ at some points $(a_1,b_1)$ and $(a_2,b_2)$ in $D$ such that
 	$$f(a_1,b_1) \leq f(x,y) \leq f(a_2,b_2)$$
@@ -85,7 +97,7 @@ To find the absolute extrema of a continuous function on a closed, bounded $D$:
 \vspace{6pt}
 \textbf{Examples:}\\
 \begin{itemize}
-	\item[(a)] $f(x,y) = 1+x^2+y^2$
+	\item[(a)] $f(x,y) = 1+x^2+y^2$ where $0 \leq x^2+y^2 \leq 4$
 	\item[(b)] $f(x,y) = 5-3x+4y$ on closed triangle with vertices $(0,0)$, $(4,0)$, $(4,5)$.
 \end{itemize}
 \end{frame}
