@@ -7,8 +7,8 @@
 \setbeamercolor{frametitle}{fg=navy}
 \setbeamercolor{title}{fg=navy}
 
-\title{Lecture 11: Multiple Integration Part I}
-\date{September 26, 2019}
+\title{Lecture 9: Multiple Integration Part I}
+\date{September 24, 2019}
 
 \begin{document}
 	
@@ -52,7 +52,7 @@ $$\iint\limits_{\mathbb{R}} f(x,y) dA = \lim\limits_{||\mathit{P}||\rightarrow 0
 	\item[(a)] $\iint\limits_{\mathbb{R}} c f(x,y) dx\,dy = c \iint\limits_{\mathbb{R}} f(x,y)dx\,dy$ if $c$ is a real number
 	\item[(b)] $\iint\limits_{\mathbb{R}} [f(x,y) + g(x,y)] dx \,dy = \iint\limits_{\mathbb{R}} f(x,y)dx\,dy + \iint\limits_{\mathbb{R}} g(x,y)dx\,dy$
 	\item[(c)] If $\mathbb{R}$ is the union of two nonoverlapping regions $\mathbb{R}_1 + \mathbb{R}_2$,
-	$$\iint\limits_{\mathbb{R}}f(x,y)dx\,dy = \iint\limits_{\mathbb{R_1}}f(x,y)dx\,dy + \iint\limits_{\mathbb{R_2}}f(x,y)dx\,dy$$
+	$$\iint\limits_{\mathbb{R}}f(x,y)dx\,dy = \iint\limits_{\mathbb{R}_1}f(x,y)dx\,dy + \iint\limits_{\mathbb{R}_2}f(x,y)dx\,dy$$
 	\item[(d)] If $f(x,y) \geq 0$ throughout $\mathbb{R}$, then $\iint\limits_{\mathbb{R}} f(x,y)dx\,dy \geq 0$
 \end{itemize}
 \end{frame}
@@ -71,8 +71,12 @@ $$\int_a^b \int_c^d f(x,y)dx\,dy = \int_a^b \Bigg[\int_c^d f(x,y)dx\Bigg]dy$$
 
 \begin{frame}
 \frametitle{\textbf{Evaluation of the Double Integral: Fubini's Theorem}}
-If $f$ is a continuous function on rectangle $\mathbb{R} = \{(x,y)|a\leq b, c\leq d \}$ then
-$$\iint\limits_{\mathbb{R}} f(x,y)dA = \int_a^b \int_c^d f(x,y)dx\,dy = \int_c^d \int_a^b  f(x,y)dx\,dy $$
+
+\begin{theorem}[Fubini's Theorem]
+	If $f$ is a continuous function on rectangle $\mathbb{R} = \{(x,y)|a\leq b, c\leq d \}$ then
+	$$\iint\limits_{\mathbb{R}} f(x,y)dA = \int_a^b \int_c^d f(x,y)dx\,dy = \int_c^d \int_a^b  f(x,y)dx\,dy $$
+\end{theorem}
+
 Sometimes one way is easier to evaluate than the other.\\
 \vspace{12pt}
 
