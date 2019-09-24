@@ -1,0 +1,52 @@
+\documentclass[12pt, amssymb, one column]{article}
+\usepackage{times, amsthm, amsmath, amssymb, cancel, changepage, graphicx, lipsum, fancyhdr, mathabx, enumitem}
+\usepackage[margin=1in]{geometry}
+
+\newcommand{\ihat}{\mathbf {\hat \imath}}
+\newcommand{\jhat}{\mathbf {\hat \jmath}}
+
+\pagestyle{fancy}
+\fancyhf{}
+\rhead{}
+\chead{\bf{BIOST 2081 Midterm Review}}
+\lhead{}
+%\cfoot{-\thepage-}
+
+\setitemize[0]{leftmargin=.3in}
+\renewcommand{\baselinestretch}{.9}
+
+
+%end of header, beginning of document
+
+\begin{document}
+\noindent \textbf{\large{Group A}}
+
+\begin{itemize}
+	\item[(1)]  Evaluate the following integral by first switching the order of integration from $dy\,dx$ to $dx \, dy$ and then integrating.
+	$$\int_0^3 \int_{x^2}^9 x^3 e^{y^3} dy\,dx$$	
+	\item[(2)] Evaluate whether the following series coverge or diverge:
+	\begin{itemize}
+		\item[a)] $\sum_{n=1}^{\infty} \frac{1+2^n}{1+3^n}$
+		\item[b)] $\sum_{n=2}^{\infty} \frac{1}{n^2-1}$
+	\end{itemize}
+\end{itemize}
+
+
+
+\pagebreak
+
+
+\noindent \textbf{\large{Group B}}
+\begin{itemize}
+	\item[(1)] Evaluate the following integral over the unit circle by first transforming to polar coordinates and then integrating.
+	$$\iint\limits_{R} (x^2+y^2)e^{\sqrt{x^2+y^2}} dA \mbox{ where } R=\{(x,y)| x^2+y^2 \leq 1\}$$
+	Hint: The polar coordinate transformation is given by $x=r\cos \theta$ and $y= r\sin \theta$. Also $\cos^2\theta + \sin^2 \theta = 1$, in case you missed it in class.
+	\item[(2)] Using Lagrange multipliers, solve the following minimization problem:
+	$$f(x,y) = \sqrt{x^2+y^2+1} \mbox{ subject to } g(x,y)= xy-1$$
+\end{itemize} 
+
+
+
+
+
+\end{document}

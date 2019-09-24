@@ -74,16 +74,16 @@ $$\int_a^b \int_c^d f(x,y)dx\,dy = \int_a^b \Bigg[\int_c^d f(x,y)dx\Bigg]dy$$
 
 \begin{theorem}[Fubini's Theorem]
 	If $f$ is a continuous function on rectangle $\mathbb{R} = \{(x,y)|a\leq b, c\leq d \}$ then
-	$$\iint\limits_{\mathbb{R}} f(x,y)dA = \int_a^b \int_c^d f(x,y)dx\,dy = \int_c^d \int_a^b  f(x,y)dx\,dy $$
+	$$\iint\limits_{\mathbb{R}} f(x,y)dA = \int_a^b \int_c^d f(x,y)dx\,dy = \int_c^d \int_a^b  f(x,y)dy\,dx $$
 \end{theorem}
 
-Sometimes one way is easier to evaluate than the other.\\
+
 \vspace{12pt}
 
 \textbf{Example:}
 
 \begin{itemize}
-	\item[(a)] Integrate $f(x,y) = 4xy$ on the trapezoid with corners at $(0,0)$, $(4,0)$, $(2,2)$, and $(4,2)$.
+	\item[(a)] Integrate $f(x,y) = 4xy$ on the rectangle with corners at $(0,0)$, $(4,0)$, $(0,2)$, and $(4,2)$.
 \end{itemize}
 \end{frame}
 
