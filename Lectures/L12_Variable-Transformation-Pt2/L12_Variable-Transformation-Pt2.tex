@@ -9,8 +9,8 @@
 \setbeamerfont{frametitle}{series=\bfseries}
 \setbeamerfont{title}{series=\bfseries}
 
-\title{Lecture 14: Change of Variables II}
-\date{October 8, 2019}
+\title{Lecture 12: Change of Variables II}
+\date{October 3, 2019}
 
 \begin{document}
 	
@@ -21,8 +21,8 @@
 \frametitle{Review: Change of Variables Formula}
 \begin{figure}
 	
-	\includegraphics[width=.9\textheight]{vmap.jpg}\\
-	\hspace*{10pt}\hbox{\thinspace{\tiny\itshape ksuweb.kenneshaw.edu}}
+	\includegraphics[height=.5\textheight]{vmap.png}\\
+	\hspace*{10pt}\hbox{\thinspace{\tiny\itshape math.drexel.edu}}
 \end{figure}
 If $J = \frac{\partial x}{\partial u} \frac{\partial y}{\partial v}-	\frac{\partial x}{\partial v}\frac{\partial y}{\partial u} \neq 0$,
 $$\iint\limits_{R} f(x,y)dy\,dx = \iint\limits_{S} f[g(u,v),h(u,v)] |J| dv\,du$$
@@ -32,12 +32,12 @@ $$\iint\limits_{R} f(x,y)dy\,dx = \iint\limits_{S} f[g(u,v),h(u,v)] |J| dv\,du$$
 
 \begin{frame}
 \frametitle{A Bunch of Examples}
-Examples:
+
 \begin{itemize}
-	\item[(1)] $T^{-1}: u=xy,v=xy^2$. Evaluate $\iint\limits_{R} y^2 dA$ where $R$ is bounded by the curves $xy=1,xy=2,xy^2=1,xy^2=2$.
-	\item[(2)]$T: x=u/v, y=v$. Evaluate $\iint\limits_{R} xy \,dA$ where $R$ is the region in the first quadrant bounded by $y=x,y=3x,xy=1,xy=3$.
-	\item[(3)]$T^{-1}: u=2x-y,v=x+y$. Evaluate $\iint\limits_{R} 6x-3y dA$ where $R$ is the region bounded by $2x-y=1,x+y=1,2x-y=3,x+y=3$.
-	\item[(4)]$T^{-1}: u=y-x,v=y+x$. Evaluate $\iint\limits_{R} xy dA$ where $R$ is a square with verticies at $(0,1),(1,1),(2,0),(1,-1)$
+	\item[(a)] $T^{-1}: u=xy,v=xy^2$. Evaluate $\iint\limits_{R} y^2 dA$ where $R$ is bounded by the curves $xy=1,xy=2,xy^2=1,xy^2=2$.
+	\item[(b)]$T: x=u/v, y=v$. Evaluate $\iint\limits_{R} xy \,dA$ where $R$ is the region in the first quadrant bounded by $y=x,y=3x,xy=1,xy=3$.
+	\item[(c)]$T^{-1}: u=2x-y,v=x+y$. Evaluate $\iint\limits_{R} 6x-3y dA$ where $R$ is the region bounded by $2x-y=1,x+y=1,2x-y=3,x+y=3$.
+	\item[(d)]$T^{-1}: u=y-x,v=y+x$. Evaluate $\iint\limits_{R} xy dA$ where $R$ is a square with verticies at $(0,1),(1,1),(2,0),(1,-1)$
 \end{itemize}
 \end{frame}
 
@@ -59,11 +59,12 @@ $$M = \begin{bmatrix}
 
 
 \begin{frame}
-\frametitle{Polar Coordinates}
+\frametitle{More Examples}
 \textbf{Examples:}
 \begin{itemize}
 	\item[(a)] Evaluate $\iint\limits_{R} e^{x^2+y^2} dy\,dx$ where $R$ is the unit circle.
-	\item[(b)] Evaluate $\int_{-\infty}^\infty e^{-x^2/2}dx$.
+	\item[(b)] Evaluate $\iint_{R} 4xy-7 \mathop{dA}$ where $R$ is the region bounded by $x^2+y^2 = 2$ in the first quadrant.
+	\item[(c)] Evaluate $\int_{-\infty}^\infty e^{-x^2/2}dx$.
 \end{itemize}
 \end{frame}
 
